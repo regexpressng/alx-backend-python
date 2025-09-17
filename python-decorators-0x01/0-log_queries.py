@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sqlite3
 import functools
 from datetime import datetime
@@ -6,10 +7,14 @@ from datetime import datetime
 
 """ YOUR CODE GOES HERE"""
 def log_queries(func):
+    @functools.wraps(func)
     def wrapper(*args, **kwargs):
-        results = func(*args, **kwargs)
-        for result in results:
-            print(result)
+        if args:
+            print(f"{datetime.utcnow()} LOG: {args[0]}")
+        if 'query' in kwargs:
+            print(f"{datetime.utcnow()} LOG: {kwargs.get('query')}")
+        return func(*args, **kwargs)
+            
     return wrapper
 
 @log_queries
