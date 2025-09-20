@@ -6,11 +6,13 @@ def with_db_connection(func):
     """ your code goes here"""
     @functools.wraps(func)
     def wrapper(user_id):
-        conn = sqlite3.connect('users.db')
-        result = func(conn, user_id)
-        return result
+        try:
+            conn = sqlite3.connect('users.db')
+            result = func(conn, user_id)
+            return result
 
-    return wrapper
+        except Exception as e:
+             print(f"An unexpected error occurred: {e}")
     
 
 @with_db_connection 
