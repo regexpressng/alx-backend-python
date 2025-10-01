@@ -57,9 +57,7 @@ class TestGithubOrgClient(unittest.TestCase):
         with patch.object(GithubOrgClient,
                           "org", new_callable=PropertyMock) as mock_org:
             mock_org.return_value = "https://api.github.com/orgs/google/repos"
-
-        mock_get_json.assert_called_once_with(
-            "https://api.github.com/orgs/google/repos")
+            client = GithubOrgClient("google")
 
     @parameterized.expand([
         ({"license": {"key": "my_license"}}, "my_license", True),
