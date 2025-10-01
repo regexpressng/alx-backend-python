@@ -5,8 +5,9 @@ Unittest suite for client.GithubOrgClient module.
 import unittest
 from unittest.mock import patch, Mock, PropertyMock
 from client import GithubOrgClient
-from parameterized import parameterized
-
+from parameterized import parameterized, parameterized_class
+from fixtures import TEST_PAYLOAD
+import client
 
 class TestGithubOrgClient(unittest.TestCase):
     """Integration tests for the GithubOrgClient.
@@ -57,7 +58,7 @@ class TestGithubOrgClient(unittest.TestCase):
         with patch.object(GithubOrgClient,
                           "org", new_callable=PropertyMock) as mock_org:
             mock_org.return_value = "https://api.github.com/orgs/google/repos"
-            client = GithubOrgClient("google")
+
 
     @parameterized.expand([
         ({"license": {"key": "my_license"}}, "my_license", True),
