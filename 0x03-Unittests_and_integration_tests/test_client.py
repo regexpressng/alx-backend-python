@@ -94,6 +94,10 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         cls.mock_get = cls.get_patcher.start()
 
         # Define a side_effect function to return correct payload depending on URL
+        @parameterized.expand([
+        ("all_repos", None, expected_repos),
+        ("apache2_repos", "apache-2.0", apache2_repos)
+    ])
         def get_json_side_effect(url, *args, **kwargs):
             mock_response = Mock()
             if url.endswith(cls.org_payload["repos_url"].split('/')[-1]):
