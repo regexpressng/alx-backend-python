@@ -8,6 +8,7 @@ from client import GithubOrgClient
 from parameterized import parameterized, parameterized_class
 from fixtures import TEST_PAYLOAD
 import client
+from fixtures import org_payload, repos_payload, expected_repos, apache2_repos
 
 class TestGithubOrgClient(unittest.TestCase):
     """Integration tests for the GithubOrgClient.
@@ -68,3 +69,53 @@ class TestGithubOrgClient(unittest.TestCase):
         """Test has_license method with different license keys"""
         result = GithubOrgClient.has_license(repo, license_key)
         self.assertEqual(result, expected)
+
+
+
+@parameterized_class([
+    {
+        "org_payload": org_payload,
+        "repos_payload": repos_payload,
+        "expected_repos": expected_repos,
+        "apache2_repos": apache2_repos
+    }
+])
+class TestIntegrationGithubOrgClient(unittest.TestCase):
+    """Integration tests for GithubOrgClient.public_repos"""
+
+    @classmethod
+    def setUpClass(cls):
+        """Set up patchers and mock requests.get for all tests in the class"""
+
+        # Patch 'requests.get' used internally by get_json
+        cls.get_patcher = patch('utils.requests.get')
+
+        # Start the patcher
+        cls.mock_get = cls.get_patcher.start()
+
+        # Define a side_effect function to return correct payload depending on URL
+        def get_json_side_effect(url, *args, **kwargs):
+            mock_response = Mock()
+            if url.endswith(cls.org_payload["repos_url"].split('/')[-1]):
+                # URL matches repos_url
+                mock_response.json.return_value = cls.repos_payload
+            elif url.endswith(cls.org_payload["url"].split('/')[-1]):
+                # URL matches org URL
+                mock_response.json.return_value = cls.org_payload
+            else:
+                # Default empty
+                mock_response.json.return_value = {}
+            return mock_response
+
+        cls.mock_get.side_effect = get_json_side_effect
+
+    @classmethod
+    def tearDownClass(cls):
+        """Stop the requests.get patcher"""
+        cls.get_patcher.stop()
+
+    def test_public_repos(self):
+        """Test public_repos integration using mocked HTTP requests"""
+        client = GithubOrgClient(self.org_payload["login"])
+        self.assertEqual(client.public_repos(), self.expected_repos)
+        self.assertEqual(client.public_repos(license="apache-2.0"), self.apache2_repos)
