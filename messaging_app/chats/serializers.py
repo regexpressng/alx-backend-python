@@ -4,10 +4,21 @@ from .models import User, Message, Conversation
 
 
 class UserSerializer(serializers.ModelSerializer):
+    days_since_joined = serializers.SerializerMethodField()
+    
     class Meta:
         model = User
         fields = ['user_id', 'username', 'email', 'first_name', 'last_name', 'phone_number', 'role', 'created_at']
         read_only_fields = ['user_id', 'created_at']
+
+        def get_days_since_joined(self, obj):
+            from django.utils.timezone import now
+            return (now().date() - obj.created_at.date()).days
+
+        def validate_phone_number(self, value):
+            if not value.startswith('+'):
+                raise serializers.ValidationError("Phone number must start with country code (e.g., +1).")
+            return value
 
 
 class MessageSerializer(serializers.ModelSerializer):
