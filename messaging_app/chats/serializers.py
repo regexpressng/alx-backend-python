@@ -43,7 +43,7 @@ class MessageSerializer(serializers.ModelSerializer):
     def get_is_recent(self, obj):
         from django.utils.timezone import now
         from datetime import timedelta
-        return (now() - obj.sent_at) < timedelta(minutes=5)
+        return (now() - obj.sent_at) < timedelta(hours=5)
     
     def validate_message_body(self, value):
         if len(value.strip()) == 0:
