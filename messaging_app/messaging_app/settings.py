@@ -83,6 +83,11 @@ REST_FRAMEWORK = {
         # 'rest_framework.permissions.AllowAny', # Example of another permission class
         # 'rest_framework.permissions.IsAdminUser', # Example of another permission class
     ),
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 20,
     # ... other DRF settings if needed ...
 }
 
