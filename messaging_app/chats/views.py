@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import action
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
-
+from .permissions import IsParticipant
 from .models import Conversation, Message
 from .serializers import (
     ConversationSerializer,
@@ -13,25 +13,33 @@ from .serializers import (
 )
 
 
-class ConversationViewSet(viewsets.ViewSet):
+class ConversationViewSet(viewsets.ModelViewSet):
     """
     ViewSet for listing and creating conversations.
     """
-    def list(self):
-        queryset = Conversation.objects.all()
-        serializer =  ConversationSerializer(queryset)
-        filter_backends = [DjangoFilterBackend]
-        filterset_fields = ['participants']
-        return Response(serializer.data)
+    serializer_class = ConversationSerializer
+    permission_classes = [permissions.IsAuthenticated, IsParticipant]
+    def get_queryset(self):
+        return Conversation.objects.filter(participants=self.request.user)
+
+    def get_serializer_class(self):
+        if self.action in ['create', 'update', 'partial_update']:
+            return ConversationCreateSerializer
+        return ConversationSerializer
     
 
-class MessageViewSet(viewsets.ViewSet):
+class MessageViewSet(viewsets.ModelViewSet):
     """
         Viewset to retrieve messages
     """
-    def retrieve(self, request, conversation_id=None):
-        queryset = Message.objects.filter( conversation__conversation_id=conversation_id)
-        serializer = MessageSerializer(queryset)
-        filter_backends = [DjangoFilterBackend]
-        filterset_fields = ['conversation']
-        return Response(serializer)
+    serializer_class = MessageSerializer
+    permission_classes = [permissions.IsAuthenticated, IsParticipant]
+
+    def get_queryset(self):
+        # Get conversation_id from URL kwargs (nested router)
+        conversation_id = self.kwargs.get('conversation_pk')
+        return Message.objects.filter(conversation__conversation_id=conversation_id)
+
+    def perform_create(self, serializer):
+        # Automatically set the sender to the logged-in user
+        serializer.save(sender=self.request.user)

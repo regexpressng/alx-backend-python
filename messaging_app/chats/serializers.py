@@ -5,8 +5,9 @@ from .models import User, Message, Conversation
 
 class UserSerializer(serializers.ModelSerializer):
     days_since_joined = serializers.SerializerMethodField()
+    display_name = serializers.SerializerMethodField()
     display_name = serializers.CharField(max_length=100, read_only=True)
-
+    
     class Meta:
         model = User
         fields = ['user_id', 'username', 'email', 'first_name', 'last_name', 'phone_number', 'role', 'created_at', 'days_since_joined', 'display_name']
