@@ -9,6 +9,7 @@ from .serializers import (
     ConversationCreateSerializer,
     MessageSerializer
 )
+from .pagination import MessagePagination
 
 class ConversationViewSet(viewsets.ModelViewSet):
     serializer_class = ConversationSerializer
@@ -27,6 +28,7 @@ class ConversationViewSet(viewsets.ModelViewSet):
 class MessageViewSet(viewsets.ModelViewSet):
     serializer_class = MessageSerializer
     permission_classes = [permissions.IsAuthenticated, IsParticipant]
+    pagination_class = MessagePagination
 
     def get_queryset(self):
         conversation_id = self.kwargs.get('conversation_id')
