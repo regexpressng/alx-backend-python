@@ -1,0 +1,4 @@
+[INFO] 2025-12-29 06:12:09,756 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 06:12:54,857 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-29 06:12:54,868 chats.middleware: [2025-12-29 06:12:54.857688] - User: samuel - Path: /api/conversations/
+[INFO] 2025-12-29 06:12:55,095 chats.middleware: SimpleMiddleware: After the view

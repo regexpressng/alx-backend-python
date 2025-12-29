@@ -104,6 +104,37 @@ SIMPLE_JWT = {
     "USER_ID_CLAIM": "user_id",
 }
 
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+
+    "formatters": {
+        "verbose": {
+            "format": "[{levelname}] {asctime} {name}: {message}",
+            "style": "{",
+        },
+    },
+
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+        },
+
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "chats/requests.log",
+            "formatter": "verbose",
+        },
+    },
+
+    "root": {
+        "handlers": ["console", "file"],
+        "level": "INFO",
+    },
+}
+
+
 
 
 WSGI_APPLICATION = 'messaging_app.wsgi.application'
