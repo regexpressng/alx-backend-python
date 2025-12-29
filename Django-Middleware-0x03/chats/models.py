@@ -53,6 +53,9 @@ class Conversation(models.Model):
     participants = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='conversations')
     created_at = models.DateTimeField(default=timezone.now)
     conversation_name = models.CharField(max_length=100, blank=True, null=True)
+    class Meta:
+        ordering = ['-created_at']
+
     def __str__(self):
         return f"Conversation {self.conversation_id}"
 
