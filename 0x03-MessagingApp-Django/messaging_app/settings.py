@@ -123,7 +123,7 @@ LOGGING = {
 
         "file": {
             "class": "logging.FileHandler",
-            "filename": "chats/requests.log",
+            "filename": "requests.log",
             "formatter": "verbose",
         },
     },
