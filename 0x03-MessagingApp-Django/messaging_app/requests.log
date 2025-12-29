@@ -1,0 +1,20 @@
+[INFO] 2025-12-29 07:01:56,973 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:06,472 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-29 07:02:06,480 chats.middleware: [2025-12-29 07:02:06.472866] - User: samuel - Path: /api/
+[INFO] 2025-12-29 07:02:06,545 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-29 07:02:35,982 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:37,096 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:39,720 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:40,692 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:42,340 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:43,239 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:44,929 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:45,881 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:48,516 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:49,322 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:50,932 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-29 07:02:52,155 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 07:02:59,232 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-29 07:02:59,244 chats.middleware: [2025-12-29 07:02:59.233288] - User: samuel - Path: /api/
+[INFO] 2025-12-29 07:02:59,245 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-29 07:02:59,273 django.request: Forbidden: /api/

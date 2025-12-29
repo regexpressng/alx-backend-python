@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'chats.middleware.SimpleMiddleware',  # Custom middleware added here
     'chats.middleware.RequestLoggingMiddleware',  # Custom middleware added here
+    'chats.middleware.RestrictAccessByTimeMiddleware'
 ]
 
 ROOT_URLCONF = 'messaging_app.urls'
@@ -123,7 +124,7 @@ LOGGING = {
 
         "file": {
             "class": "logging.FileHandler",
-            "filename": "requests.log",
+            "filename": "messaging_app/requests.log",
             "formatter": "verbose",
         },
     },
