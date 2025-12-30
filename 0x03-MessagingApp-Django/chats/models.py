@@ -10,6 +10,7 @@ class UserRoles(models.TextChoices):
     GUEST = 'guest', 'Guest'
     HOST = 'host', 'Host'
     ADMIN = 'admin', 'Admin'
+    MODERATOR = 'moderator','Moderator'
 DEFAULT_ROLE = UserRoles.GUEST
 
 class User(AbstractUser):

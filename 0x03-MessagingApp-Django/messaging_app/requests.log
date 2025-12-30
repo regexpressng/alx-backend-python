@@ -18,3 +18,102 @@
 [INFO] 2025-12-29 07:02:59,244 chats.middleware: [2025-12-29 07:02:59.233288] - User: samuel - Path: /api/
 [INFO] 2025-12-29 07:02:59,245 chats.middleware: SimpleMiddleware: After the view
 [WARNING] 2025-12-29 07:02:59,273 django.request: Forbidden: /api/
+[INFO] 2025-12-29 09:24:04,276 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-29 09:24:08,789 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-29 09:24:08,827 chats.middleware: [2025-12-29 09:24:08.790336] - User: samuel - Path: /api/
+[INFO] 2025-12-29 09:24:08,987 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-29 09:24:21,660 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-29 09:24:21,667 chats.middleware: [2025-12-29 09:24:21.660619] - User: samuel - Path: /api/conversations/
+[INFO] 2025-12-29 09:24:22,104 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-29 11:14:56,661 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 16:55:52,385 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 16:56:13,874 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 16:56:13,883 chats.middleware: [2025-12-30 16:56:13.875665] - User: samuel - Path: /api/conversations/
+[INFO] 2025-12-30 16:56:14,177 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-30 16:56:14,985 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 16:56:14,995 chats.middleware: [2025-12-30 16:56:14.986314] - User: samuel - Path: /favicon.ico
+[INFO] 2025-12-30 16:56:15,017 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 16:56:15,044 django.request: Not Found: /favicon.ico
+[INFO] 2025-12-30 16:56:53,180 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 16:56:54,032 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 16:56:56,663 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 16:56:57,458 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:02:58,962 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:03:09,037 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:03:09,044 chats.middleware: [2025-12-30 17:03:09.037607] - User: samuel - Path: /api/
+[INFO] 2025-12-30 17:03:09,046 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 17:03:09,048 django.request: Forbidden: /api/
+[INFO] 2025-12-30 17:08:59,470 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:09:08,850 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:09:08,859 chats.middleware: [2025-12-30 17:09:08.858971] - User: samuel - Path: /api/
+[INFO] 2025-12-30 17:09:08,860 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 17:09:08,861 django.request: Forbidden: /api/
+[INFO] 2025-12-30 17:10:51,244 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:10:52,037 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:10:56,936 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:10:57,754 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:03,074 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:03,787 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:06,152 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:06,861 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:09,193 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:10,313 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:11,739 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:12,474 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:14,741 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:15,694 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:17,222 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:18,018 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:21,727 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:22,492 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:24,084 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:24,852 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:27,394 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:28,128 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:29,748 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:30,486 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:34,104 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:34,880 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:11:41,634 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/models.py changed, reloading.
+[INFO] 2025-12-30 17:11:42,372 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:12:35,153 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:12:36,214 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:12:38,949 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:12:39,887 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:12:42,552 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:12:43,300 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:19:31,486 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:19:36,988 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:19:36,999 chats.middleware: [2025-12-30 17:19:36.999674] - User: samuel - Path: /api/
+[INFO] 2025-12-30 17:19:37,000 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 17:19:37,002 django.request: Forbidden: /api/
+[INFO] 2025-12-30 17:19:38,334 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:19:38,341 chats.middleware: [2025-12-30 17:19:38.341496] - User: samuel - Path: /api/
+[INFO] 2025-12-30 17:19:38,342 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 17:19:38,342 django.request: Forbidden: /api/
+[INFO] 2025-12-30 17:19:49,878 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:19:50,793 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:19:54,430 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:19:55,175 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:19:57,756 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:19:58,663 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:20:01,246 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/chats/middleware.py changed, reloading.
+[INFO] 2025-12-30 17:20:02,015 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:20:05,434 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:20:05,444 chats.middleware: [2025-12-30 17:20:05.444391] - User: samuel - Path: /api/
+[INFO] 2025-12-30 17:20:05,588 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-30 17:20:09,466 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:20:09,472 chats.middleware: [2025-12-30 17:20:09.472420] - User: samuel - Path: /api/conversations/
+[INFO] 2025-12-30 17:20:09,930 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2025-12-30 17:21:17,033 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-30 17:21:17,950 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:21:19,471 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-30 17:21:20,456 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:21:27,242 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-30 17:21:28,115 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:21:29,691 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/0x03-MessagingApp-Django/messaging_app/settings.py changed, reloading.
+[INFO] 2025-12-30 17:21:30,570 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2025-12-30 17:21:34,554 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2025-12-30 17:21:34,561 chats.middleware: [2025-12-30 17:21:34.561410] - User: samuel - Path: /api/conversations/
+[INFO] 2025-12-30 17:21:34,562 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2025-12-30 17:21:34,564 django.request: Forbidden: /api/conversations/
