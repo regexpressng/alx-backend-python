@@ -1,6 +1,6 @@
 # serializers.py
 from rest_framework import serializers
-from .models import Notification, User, Message, Conversation
+from .models import Notification, User, Message, Conversation, MessageHistory
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -37,19 +37,17 @@ class CreateUserSerializer(serializers.ModelSerializer):
 
 
 class MessageSerializer(serializers.ModelSerializer):
-    sender = UserSerializer(read_only=True)
-    conversation = serializers.PrimaryKeyRelatedField(read_only=True)
+    participants = UserSerializer(source='conversation.participants', many=True, read_only=True)
     content = serializers.CharField(
         max_length=200,
         required=True,
         allow_blank=False
     )
-    is_recent = serializers.SerializerMethodField()
 
     class Meta:
         model = Message
-        fields = ['message_id', 'sender', 'conversation', 'content', 'sent_at', 'is_recent']
-        read_only_fields = ['message_id', 'sent_at', 'is_recent']
+        fields = ['message_id','content', 'conversation', 'participants']
+        read_only_fields = ['message_id', 'conversation', 'participants', 'sent_at', 'is_recent']
     
     def get_is_recent(self, obj):
         from django.utils.timezone import now
@@ -73,16 +71,19 @@ class MessageCreateSerializer(serializers.ModelSerializer):
 
 
 class ConversationSerializer(serializers.ModelSerializer):
-    participants = UserSerializer(many=True, read_only=True)
+    participants = serializers.ListField(
+        child=serializers.UUIDField(),
+        write_only=True
+    )
+    participants_count = serializers.SerializerMethodField()
     messages = MessageSerializer(many=True, read_only=True)
-    participant_count = serializers.SerializerMethodField()
 
     class Meta:
         model = Conversation
-        fields = ['conversation_id', 'participants', 'messages', 'participant_count','created_at']
-        read_only_fields = ['conversation_id', 'created_at', 'participant_count']
+        fields = ['conversation_id', 'participants', 'messages', 'participants_count','created_at']
+        read_only_fields = ['conversation_id', 'created_at', 'participants_count']
     
-    def get_participant_count(self, obj):
+    def get_participants_count(self, obj):
         return obj.participants.count()
 
 
@@ -94,8 +95,7 @@ class ConversationCreateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Conversation
-        fields = ['conversation_id', 'participant_ids', 'created_at']
-        read_only_fields = ['conversation_id', 'created_at']
+        fields = ['participant_ids']
 
     def validate_participant_ids(self, value):
         if len(value) < 2:
@@ -106,6 +106,9 @@ class ConversationCreateSerializer(serializers.ModelSerializer):
         if len(existing_users) != len(value):
             raise serializers.ValidationError("One or more participant IDs are invalid.")
         
+        if existing_users.filter(user_id=self.context['request'].user.user_id).exists() is False:
+            raise serializers.ValidationError("The creator must be a participant in the conversation.")
+        
         return value
 
     def create(self, validated_data):
@@ -113,6 +116,12 @@ class ConversationCreateSerializer(serializers.ModelSerializer):
         conversation = Conversation.objects.create(**validated_data)
         conversation.participants.set(participant_ids)
         return conversation
+    
+    def update(self, instance, validated_data):
+        participants_ids = validated_data.pop('participant_ids', [])
+
+        instance.participants.set(participants_ids)
+        return instance
     
 class NotificationSerializer(serializers.ModelSerializer):
     class Meta:
@@ -124,3 +133,22 @@ class NotificationSerializer(serializers.ModelSerializer):
         if len(value.strip()) == 0:
             raise serializers.ValidationError("Notification message cannot be empty.")
         
+
+class MessageHistorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MessageHistory
+        fields = ['history_id', 'message', 'edited_content', 'edited_at']
+        read_only_fields = ['history_id', 'message', 'edited_at']
+        
+
+class ThreadedMessageSerializer(serializers.ModelSerializer):
+    sender = UserSerializer(read_only=True)
+    replies = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Message
+        fields = ['message_id', 'sender', 'content', 'sent_at', 'parent_message', 'replies']
+
+    def get_replies(self, obj):
+        replies_qs = obj.replies.select_related('sender').all().order_by('sent_at')
+        return ThreadedMessageSerializer(replies_qs, many=True).data

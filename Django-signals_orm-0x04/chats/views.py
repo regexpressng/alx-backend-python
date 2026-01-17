@@ -13,7 +13,8 @@ from .serializers import (
     MessageSerializer,
     NotificationSerializer,
     CreateUserSerializer, 
-    UserSerializer
+    UserSerializer,
+    ThreadedMessageSerializer
 )
 from .pagination import MessagePagination
 from django.shortcuts import get_object_or_404
@@ -41,23 +42,22 @@ class MessageViewSet(viewsets.ModelViewSet):
         conversation_id = self.kwargs['conversation_pk']
         return Message.objects.filter(
             conversation_id=conversation_id,
-            conversation__participants=self.request.user
-        ).order_by('-sent_at')
+            conversation__participants=self.request.user,
+            parent_message__isnull=True  # only top-level messages
+        ).select_related('sender').prefetch_related('replies__sender').order_by('-sent_at')
 
     def get_serializer_class(self):
         if self.action == 'create':
             return MessageCreateSerializer
-        return MessageSerializer
+        return ThreadedMessageSerializer
 
     def perform_create(self, serializer):
         conversation = get_object_or_404(
             Conversation,
             conversation_id=self.kwargs['conversation_pk']
         )
-        serializer.save(
-            conversation=conversation,
-            sender=self.request.user,
-        )
+        serializer.save(conversation=conversation, sender=self.request.user)
+
 
 
 class NotificationViewSet(viewsets.ModelViewSet):
@@ -70,7 +70,7 @@ class NotificationViewSet(viewsets.ModelViewSet):
 
 class UserViewSet(viewsets.ModelViewSet):
     serializer_class = CreateUserSerializer
-    permission_classes = [AllowAny]
+    permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
         user_id = self.request.user.user_id

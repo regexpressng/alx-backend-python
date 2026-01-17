@@ -61,14 +61,32 @@ class Conversation(models.Model):
 
 
 class Message(models.Model):
-    message_id = models.UUIDField(primary_key=True,db_index=True, default=uuid.uuid4, editable=False)
-    sender = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='sent_messages')
-    conversation = models.ForeignKey(Conversation, on_delete=models.CASCADE, related_name='messages')
-    content= models.CharField(max_length=200, null=False, default='')
+    message_id = models.UUIDField(primary_key=True, db_index=True, default=uuid.uuid4, editable=False)
+    sender = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='sent_messages'
+    )
+    conversation = models.ForeignKey(
+        Conversation,
+        on_delete=models.CASCADE,
+        related_name='messages'
+    )
+    content = models.CharField(max_length=200, null=False, default='')
     sent_at = models.DateTimeField(default=timezone.now)
+
+    # New field for threaded replies
+    parent_message = models.ForeignKey(
+        'self',
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name='replies'
+    )
 
     def __str__(self):
         return f"Message from {self.sender}"
+
     
 class Notification(models.Model):
     notification_id = models.UUIDField(primary_key=True, db_index=True, default=uuid.uuid4, editable=False)
@@ -77,8 +95,19 @@ class Notification(models.Model):
     message_content = models.CharField(max_length=255, null=False)
     is_read = models.BooleanField(default=False)
     created_at = models.DateTimeField(default=timezone.now)
-    
+
     class Meta:
             ordering = ['-created_at']      
     def __str__(self):
         return f"Notification for {self.user.username}"
+
+class MessageHistory(models.Model):
+    history_id = models.UUIDField(primary_key=True, db_index=True, default=uuid.uuid4, editable=False)
+    message = models.ForeignKey(Message, on_delete=models.CASCADE, related_name='history')
+    edited_content = models.CharField(max_length=200, null=False)
+    edited_at = models.DateTimeField(default=timezone.now)
+
+    class Meta:
+            ordering = ['-edited_at']      
+    def __str__(self):
+        return f"History for Message {self.message.message_id}"

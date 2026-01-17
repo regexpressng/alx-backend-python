@@ -4201,3 +4201,1479 @@ TypeError: Notification() got unexpected keyword arguments: 'sender'
 [INFO] 2026-01-01 18:28:54,070 chats.middleware: SimpleMiddleware: Before the view
 [INFO] 2026-01-01 18:28:54,081 chats.middleware: [2026-01-01 18:28:54.081720] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
 [INFO] 2026-01-01 18:28:54,134 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 20:45:22,767 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 20:45:25,272 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 20:45:25,282 chats.middleware: [2026-01-01 20:45:25.282272] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 20:45:25,532 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 20:45:43,549 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 20:45:43,560 chats.middleware: [2026-01-01 20:45:43.560317] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 20:45:43,892 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 20:45:48,012 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 20:45:48,024 chats.middleware: [2026-01-01 20:45:48.024767] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 20:45:48,086 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 20:45:57,642 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 20:45:57,652 chats.middleware: [2026-01-01 20:45:57.652526] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-01 20:45:57,742 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 20:47:55,894 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 20:47:55,905 chats.middleware: [2026-01-01 20:47:55.905522] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 20:47:55,993 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:16:58,638 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:00,890 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:03,675 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:04,684 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:07,106 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:08,035 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:12,457 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:13,345 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:15,700 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:16,795 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:20,188 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:21,045 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:24,341 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:25,089 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:32,416 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:33,161 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:35,443 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:36,200 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:42,531 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:43,600 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:46,054 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:47,030 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:56,437 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:17:57,210 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:17:59,514 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:00,494 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:03,920 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:04,940 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:06,328 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:07,339 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:10,771 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:11,551 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:14,897 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:15,906 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:21,652 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:22,557 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:24,226 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:25,072 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:27,709 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:28,725 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:32,351 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:33,147 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:51,346 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:52,172 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:54,466 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:55,244 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:18:58,553 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:18:59,492 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:19:04,812 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:19:05,635 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:19:07,930 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:19:08,860 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:19:13,187 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:19:13,980 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:19:16,665 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:19:17,507 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:19:22,829 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:19:23,635 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:26:51,297 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:26:52,107 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:26:53,764 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:26:54,698 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:26:56,342 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:26:57,116 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:26:58,711 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:26:59,466 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:29,081 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:28:29,973 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:32,403 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:28:33,402 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:36,711 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:28:37,511 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:40,804 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 21:28:41,611 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:56,742 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:28:57,917 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:28:59,580 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:00,613 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:03,079 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:04,191 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:07,686 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:08,815 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:12,292 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:13,163 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:15,632 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:16,353 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:18,767 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:19,510 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:29:50,274 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:29:51,085 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:30:24,636 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:30:25,517 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:30:26,903 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:30:27,897 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:32:14,835 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:32:15,739 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:32:46,361 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:32:47,209 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:17,060 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:18,052 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:19,458 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:20,197 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:21,836 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:22,789 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:25,537 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:26,537 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:28,144 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:28,936 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:37,670 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:38,482 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:46,304 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:47,280 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:49,652 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:50,355 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:33:51,723 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:33:52,483 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:34:34,716 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 21:34:35,498 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:04,201 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:05,010 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:08,655 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:09,586 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:10,991 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:11,810 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:14,223 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:15,353 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:17,683 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:18,522 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:20,849 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:21,742 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:25,045 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:25,840 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:32,180 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:33,081 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:34,401 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:35,169 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:37,481 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:38,452 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:40,776 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:41,882 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:44,278 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:45,037 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:35:56,471 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:35:57,249 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:00,638 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:36:01,335 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:03,617 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:36:04,538 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:44,536 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:36:45,261 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:54,666 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:36:55,712 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:57,052 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:36:58,034 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:36:59,329 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:37:00,031 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:37:01,333 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:37:02,220 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:42:46,396 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:42:47,546 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:42:50,285 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:42:51,161 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:42:53,579 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:42:54,538 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:42:59,989 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:00,907 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:05,240 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:06,019 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:08,317 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:09,259 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:10,648 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:11,413 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:17,154 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:17,918 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:28,815 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:29,961 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:31,713 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:32,507 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:34,035 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:34,868 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:36,470 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:37,297 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:47,146 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:48,250 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:49,919 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:50,841 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:52,124 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:52,884 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:55,183 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:56,076 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:43:57,621 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:43:58,367 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:44:05,046 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 21:44:05,800 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:51:54,358 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 21:51:54,367 chats.middleware: [2026-01-01 21:51:54.367566] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 21:51:54,621 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:53:31,614 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-01 21:53:32,537 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 21:53:36,719 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 21:53:36,728 chats.middleware: [2026-01-01 21:53:36.728795] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 21:53:36,968 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:53:39,057 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 21:53:39,063 chats.middleware: [2026-01-01 21:53:39.063655] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 21:53:39,129 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:53:40,215 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 21:53:40,221 chats.middleware: [2026-01-01 21:53:40.221609] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 21:53:40,284 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:53:41,212 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 21:53:41,217 chats.middleware: [2026-01-01 21:53:41.217236] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 21:53:41,296 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 21:53:49,867 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-01 21:53:50,733 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:00:46,438 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:00:46,448 chats.middleware: [2026-01-01 22:00:46.447930] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 22:00:46,674 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:03:08,882 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:03:08,897 chats.middleware: [2026-01-01 22:03:08.897392] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342
+[INFO] 2026-01-01 22:03:08,983 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:03:08,991 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:03:08,999 chats.middleware: [2026-01-01 22:03:08.999112] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-01 22:03:09,076 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:03:37,928 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:03:37,933 chats.middleware: [2026-01-01 22:03:37.933686] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-01 22:03:38,005 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:05:38,689 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:05:38,700 chats.middleware: [2026-01-01 22:05:38.700476] - User: oye - Path: /api/conversations/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca
+[INFO] 2026-01-01 22:05:38,716 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:05:38,728 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:05:38,735 chats.middleware: [2026-01-01 22:05:38.735600] - User: oye - Path: /api/conversations/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:05:38,764 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-01 22:05:38,765 django.request: Not Found: /api/conversations/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:06:43,246 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:06:43,254 chats.middleware: [2026-01-01 22:06:43.254656] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca
+[INFO] 2026-01-01 22:06:43,279 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:06:43,297 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:06:43,308 chats.middleware: [2026-01-01 22:06:43.307990] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:06:43,374 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:08:15,569 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:08:15,574 chats.middleware: [2026-01-01 22:08:15.574493] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:08:15,605 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-01 22:08:15,606 django.request: Bad Request: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:08:29,451 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:08:29,455 chats.middleware: [2026-01-01 22:08:29.455777] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:08:29,531 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:08:46,649 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:08:46,655 chats.middleware: [2026-01-01 22:08:46.655081] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[ERROR] 2026-01-01 22:08:46,788 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1035, in update
+    instance.save()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 988, in save_base
+    pre_save.send(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py", line 31, in log_message_edit
+    Logger.info(f"Message {instance.pk} content changed from '{old_instance.content}' to '{instance.content}'")
+TypeError: Logger.info() missing 1 required positional argument: 'msg'
+[INFO] 2026-01-01 22:08:46,792 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:11:15,076 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:11:15,948 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:11:21,308 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:11:22,171 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:11:24,735 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:11:25,629 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:11:31,436 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:11:32,263 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:11:34,930 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:11:36,282 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:11:43,825 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:11:43,834 chats.middleware: [2026-01-01 22:11:43.834172] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:11:44,035 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:12:08,939 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:12:08,945 chats.middleware: [2026-01-01 22:12:08.945497] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:12:08,979 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-01 22:12:08,980 django.request: Bad Request: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:12:18,465 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:12:18,470 chats.middleware: [2026-01-01 22:12:18.470451] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:12:18,541 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:12:45,335 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:12:45,342 chats.middleware: [2026-01-01 22:12:45.342630] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:12:45,354 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'yyyyuyu' to 'yyyyuyu'
+[INFO] 2026-01-01 22:12:45,774 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:14:00,720 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:01,968 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:09,768 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:10,518 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:14,101 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:14,935 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:19,625 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:20,374 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:23,068 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:23,925 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:32,729 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:33,536 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:36,136 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:36,888 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:14:40,512 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:14:41,315 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:02,841 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:03,904 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:05,480 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:06,555 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:08,150 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:09,131 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:10,745 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:11,674 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:32,037 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:33,039 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:38,739 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:39,717 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:42,495 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:43,579 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:46,222 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:47,280 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:48,918 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:49,827 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:51,361 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:52,287 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:15:53,942 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:15:54,690 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:03,058 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:03,919 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:05,257 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:06,143 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:15,547 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:16,823 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:19,422 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:20,545 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:23,222 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:24,335 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:25,891 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:26,688 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:53,379 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:54,230 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:56,918 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:16:58,092 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:16:59,946 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:01,117 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:17:02,870 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:03,831 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:17:05,537 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:06,414 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:17:38,033 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:38,909 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:17:40,431 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:41,181 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:17:43,839 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:17:44,603 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:05,930 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:06,965 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:08,631 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:09,407 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:14,223 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:15,016 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:20,724 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:21,962 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:23,628 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:24,820 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:26,199 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:26,974 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:29,553 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:30,389 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:36,057 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:37,307 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:47,200 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:48,000 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:18:55,893 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:18:56,910 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:03,703 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:04,477 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:12,230 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:13,075 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:15,818 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:16,696 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:20,318 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:21,094 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:22,775 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:23,691 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:40,182 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:19:41,231 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:19:47,548 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:19:47,557 chats.middleware: [2026-01-01 22:19:47.557409] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:19:47,839 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:20:04,701 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:20:04,706 chats.middleware: [2026-01-01 22:20:04.706814] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:20:04,729 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'yyyyuyu' to 'yyyyuyu'
+[INFO] 2026-01-01 22:20:05,044 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:21:39,886 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:21:40,823 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:21:42,152 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:21:42,988 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:22:32,721 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:22:33,502 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:22:42,379 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:22:43,223 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:24:08,328 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:24:09,263 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:24:20,220 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:24:21,172 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:24:37,575 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:24:37,582 chats.middleware: [2026-01-01 22:24:37.582513] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:24:37,598 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'yyyyuyu' to 'yyyyuyu'
+[INFO] 2026-01-01 22:24:37,929 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:25:24,209 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:25:24,965 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:01,103 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:26:02,071 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:03,402 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:26:04,500 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:06,814 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:26:07,808 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:10,417 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:26:11,448 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:14,087 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:26:15,064 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:26:34,198 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:26:34,206 chats.middleware: [2026-01-01 22:26:34.206256] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:26:34,222 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content unchanged.
+[INFO] 2026-01-01 22:26:34,539 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:28:25,321 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-01 22:28:26,081 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:28:29,417 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:28:29,424 chats.middleware: [2026-01-01 22:28:29.424741] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:28:29,441 chats.signals: Message yyyyuyu content unchanged.
+[INFO] 2026-01-01 22:28:29,745 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:29:33,255 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:29:33,261 chats.middleware: [2026-01-01 22:29:33.261102] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:29:33,276 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'yyyyuyu' to 'we worrld'
+[ERROR] 2026-01-01 22:29:33,475 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: chats_messagehistory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1035, in update
+    instance.save()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 988, in save_base
+    pre_save.send(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py", line 30, in log_message_edit
+    MessageHistory.objects.create(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 902, in save
+    self.save_base(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 1008, in save_base
+    updated = self._save_table(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 1169, in _save_table
+    results = self._do_insert(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/base.py", line 1210, in _do_insert
+    return manager._insert(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: chats_messagehistory
+[INFO] 2026-01-01 22:29:33,484 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:30:31,293 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:30:34,426 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:30:34,435 chats.middleware: [2026-01-01 22:30:34.435476] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:30:34,661 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:30:46,666 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:30:46,672 chats.middleware: [2026-01-01 22:30:46.672003] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:30:46,681 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'yyyyuyu' to 'my world'
+[INFO] 2026-01-01 22:30:47,073 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:39:07,723 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:08,702 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:39:11,128 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:12,225 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:39:15,718 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:16,749 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:39:18,124 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:19,033 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:39:20,406 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:21,210 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:39:58,128 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:39:59,049 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:40:40,028 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:40:40,038 chats.middleware: [2026-01-01 22:40:40.038104] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:40:40,279 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:41:11,732 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:41:11,737 chats.middleware: [2026-01-01 22:41:11.737043] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:41:11,747 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'my world' to 'my world 2'
+[INFO] 2026-01-01 22:41:12,122 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:44:02,808 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:44:03,708 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:44:06,369 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:44:07,516 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:44:09,168 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:44:09,925 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:44:19,004 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:44:19,013 chats.middleware: [2026-01-01 22:44:19.013627] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[ERROR] 2026-01-01 22:44:19,154 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'is_recent' was declared on serializer MessageSerializer, but has not been included in the 'fields' option.
+[INFO] 2026-01-01 22:44:19,156 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:46:11,283 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:46:12,274 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:46:16,423 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:46:16,432 chats.middleware: [2026-01-01 22:46:16.432441] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[ERROR] 2026-01-01 22:46:16,588 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'sender' was declared on serializer MessageSerializer, but has not been included in the 'fields' option.
+[INFO] 2026-01-01 22:46:16,591 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:46:59,031 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:46:59,746 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:47:16,822 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:47:17,683 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:47:24,549 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:47:25,324 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:47:27,190 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:47:27,198 chats.middleware: [2026-01-01 22:47:27.198290] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:47:27,299 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:47:35,085 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:47:35,091 chats.middleware: [2026-01-01 22:47:35.091635] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/6b9f752f-02b1-41cd-85e0-3ba1f4d33bca/
+[INFO] 2026-01-01 22:47:35,101 chats.signals: Message 6b9f752f-02b1-41cd-85e0-3ba1f4d33bca content changed from 'my world 2' to 'my world 3'
+[INFO] 2026-01-01 22:47:35,483 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:49:10,391 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 22:49:11,133 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:49:12,492 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-01 22:49:13,264 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:55:45,477 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:55:45,487 chats.middleware: [2026-01-01 22:55:45.487481] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 22:55:45,589 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:56:40,175 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:56:41,139 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:57:06,682 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:57:07,668 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:57:09,336 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:57:10,127 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:57:22,422 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 22:57:22,432 chats.middleware: [2026-01-01 22:57:22.432413] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 22:57:22,533 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 22:57:57,678 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:57:58,458 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:07,294 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:08,450 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:12,010 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:13,071 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:14,502 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:15,287 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:19,760 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:20,703 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:22,069 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:22,769 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:31,490 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:32,432 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:34,859 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:35,568 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:36,943 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:37,641 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:41,197 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:42,010 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:58:45,473 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:58:46,484 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:07,686 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:08,590 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:14,136 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:14,965 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:16,375 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:17,242 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:20,695 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:21,881 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:23,273 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:24,337 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:28,963 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:29,936 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:31,332 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:32,130 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:33,535 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:34,491 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 22:59:44,186 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 22:59:45,117 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:02:53,206 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:02:53,983 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:08,084 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:08,980 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:11,644 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:12,494 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:23,440 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:24,349 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:29,912 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:30,716 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:40,579 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:41,719 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:44,471 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:45,263 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:03:47,804 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:03:48,576 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:06,722 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:07,550 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:09,928 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:10,747 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:13,322 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:14,501 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:16,170 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:16,945 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:21,414 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:22,316 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:23,974 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:04:24,746 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:04:53,575 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:04:53,583 chats.middleware: [2026-01-01 23:04:53.583584] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[ERROR] 2026-01-01 23:04:53,733 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 662, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 569, in get_raw_data_form
+    data = serializer.data.copy()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 255, in data
+    self._data = self.get_initial()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 423, in get_initial
+    for field in self.fields.values()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'participants' was declared on serializer MessageCreateSerializer, but has not been included in the 'fields' option.
+[INFO] 2026-01-01 23:04:53,735 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:05:38,217 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:05:39,006 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:05:40,563 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:05:41,356 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:05:44,263 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:05:44,273 chats.middleware: [2026-01-01 23:05:44.272985] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[ERROR] 2026-01-01 23:05:44,408 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 662, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 569, in get_raw_data_form
+    data = serializer.data.copy()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 255, in data
+    self._data = self.get_initial()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 423, in get_initial
+    for field in self.fields.values()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'participants' was declared on serializer MessageCreateSerializer, but has not been included in the 'fields' option.
+[INFO] 2026-01-01 23:05:44,412 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:06:43,295 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:06:44,466 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:06:47,263 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:06:48,140 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:06:52,649 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:06:53,488 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:07:13,160 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:07:13,169 chats.middleware: [2026-01-01 23:07:13.169073] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[ERROR] 2026-01-01 23:07:13,316 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 731, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 662, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/renderers.py", line 569, in get_raw_data_form
+    data = serializer.data.copy()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 255, in data
+    self._data = self.get_initial()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 423, in get_initial
+    for field in self.fields.values()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'participants' was declared on serializer MessageCreateSerializer, but has not been included in the 'fields' option.
+[INFO] 2026-01-01 23:07:13,319 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:08:17,516 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:08:18,470 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:08:21,133 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:08:21,911 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:08:26,431 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:08:26,441 chats.middleware: [2026-01-01 23:08:26.441267] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 23:08:26,544 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:09:10,466 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:11,565 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:14,361 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:15,418 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:17,029 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:18,043 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:21,918 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:22,733 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:24,241 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:25,039 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:26,648 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:27,412 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:30,103 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:30,815 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:45,867 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:46,858 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:48,534 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:49,289 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:51,885 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:52,737 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:09:56,213 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:09:56,974 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:06,858 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:07,944 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:09,627 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:10,368 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:14,060 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:14,858 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:17,481 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:18,279 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:26,063 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:26,860 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:31,637 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:32,692 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:34,317 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:35,111 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:39,746 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-01 23:10:40,624 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:10:44,533 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:10:44,541 chats.middleware: [2026-01-01 23:10:44.541926] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 23:10:44,768 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:12:02,534 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/pagination.py changed, reloading.
+[INFO] 2026-01-01 23:12:03,316 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:12:08,018 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/pagination.py changed, reloading.
+[INFO] 2026-01-01 23:12:08,819 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-01 23:12:17,083 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:12:17,091 chats.middleware: [2026-01-01 23:12:17.091247] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-01 23:12:17,312 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-01 23:12:45,577 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-01 23:12:45,583 chats.middleware: [2026-01-01 23:12:45.583658] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-01 23:12:45,663 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:07:22,228 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:07:22,237 chats.middleware: [2026-01-02 06:07:22.237175] - User: oye - Path: /api/
+[INFO] 2026-01-02 06:07:22,249 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:07:24,866 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:07:24,872 chats.middleware: [2026-01-02 06:07:24.872283] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:07:24,922 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:07:43,019 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:07:43,031 chats.middleware: [2026-01-02 06:07:43.031791] - User: oye - Path: /api/users/eb6d4399-1fd9-4210-b5be-ba58c7e13f6e
+[INFO] 2026-01-02 06:07:43,053 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:07:43,067 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:07:43,085 chats.middleware: [2026-01-02 06:07:43.085165] - User: oye - Path: /api/users/eb6d4399-1fd9-4210-b5be-ba58c7e13f6e/
+[INFO] 2026-01-02 06:07:43,130 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:08:16,081 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:08:16,086 chats.middleware: [2026-01-02 06:08:16.086379] - User: oye - Path: /api-auth/logout/
+[INFO] 2026-01-02 06:08:16,296 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:08:16,308 chats.middleware: SimpleMiddleware: Before the view
+[ERROR] 2026-01-02 06:08:16,409 django.request: Internal Server Error: /api/users/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py", line 76, in get_queryset
+    user_id = self.request.user.user_id
+AttributeError: 'AnonymousUser' object has no attribute 'user_id'
+[INFO] 2026-01-02 06:08:16,411 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:10:01,537 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:10:02,515 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:10:03,912 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:10:04,831 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:10:07,524 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:10:08,474 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:10:10,830 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:10:11,517 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:10:23,514 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:10:23,585 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:10:23,587 django.request: Forbidden: /api/users/
+[INFO] 2026-01-02 06:11:00,324 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:00,370 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:11:06,541 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:08,300 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:11:08,440 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:08,448 chats.middleware: [2026-01-02 06:11:08.448042] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:11:08,622 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:11:17,186 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:17,193 chats.middleware: [2026-01-02 06:11:17.193286] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:11:17,240 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:11:55,909 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:55,917 chats.middleware: [2026-01-02 06:11:55.916927] - User: oye - Path: /api/users/4a2705ce-9925-43bd-8101-573c20fa1854
+[INFO] 2026-01-02 06:11:55,942 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:11:55,954 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:11:55,965 chats.middleware: [2026-01-02 06:11:55.965293] - User: oye - Path: /api/users/4a2705ce-9925-43bd-8101-573c20fa1854/
+[INFO] 2026-01-02 06:11:56,008 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:12:08,415 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:08,420 chats.middleware: [2026-01-02 06:12:08.420376] - User: oye - Path: /api/users/4a2705ce-9925-43bd-8101-573c20fa1854/
+[INFO] 2026-01-02 06:12:08,670 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:12:19,567 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:19,600 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:12:19,603 django.request: Forbidden: /api/users/
+[INFO] 2026-01-02 06:12:28,181 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:28,199 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:12:31,107 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:32,870 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:12:33,025 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:33,033 chats.middleware: [2026-01-02 06:12:33.033632] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:12:33,069 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:12:58,392 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:12:58,401 chats.middleware: [2026-01-02 06:12:58.400939] - User: oye - Path: /api/
+[INFO] 2026-01-02 06:12:58,412 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:13:06,642 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:13:06,652 chats.middleware: [2026-01-02 06:13:06.652273] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:13:06,728 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:13:40,167 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:13:40,172 chats.middleware: [2026-01-02 06:13:40.172473] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:13:40,239 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:14:07,953 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:14:07,958 chats.middleware: [2026-01-02 06:14:07.957962] - User: oye - Path: /api/
+[INFO] 2026-01-02 06:14:07,967 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:14:16,128 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:14:16,132 chats.middleware: [2026-01-02 06:14:16.132569] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:14:16,171 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:22:24,919 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:22:24,924 chats.middleware: [2026-01-02 06:22:24.924544] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:22:26,544 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:22:48,680 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:22:48,685 chats.middleware: [2026-01-02 06:22:48.685500] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:22:50,370 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:23:09,052 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:23:09,064 chats.middleware: [2026-01-02 06:23:09.063904] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:23:10,667 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:23:32,848 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:23:32,854 chats.middleware: [2026-01-02 06:23:32.854421] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:23:34,531 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:23:37,267 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:23:37,278 chats.middleware: [2026-01-02 06:23:37.277980] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 06:23:37,330 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:27:05,589 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:27:05,596 chats.middleware: [2026-01-02 06:27:05.596005] - User: oye - Path: /api/
+[INFO] 2026-01-02 06:27:05,610 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:27:10,580 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:27:10,588 chats.middleware: [2026-01-02 06:27:10.588509] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:27:10,654 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:27:58,573 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:27:58,580 chats.middleware: [2026-01-02 06:27:58.580076] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:27:58,915 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:28:19,564 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:28:19,579 chats.middleware: [2026-01-02 06:28:19.579535] - User: oye - Path: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a
+[INFO] 2026-01-02 06:28:19,612 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:28:19,629 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:28:19,642 chats.middleware: [2026-01-02 06:28:19.642329] - User: oye - Path: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:28:19,689 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:28:19,690 django.request: Not Found: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:28:40,108 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:28:40,117 chats.middleware: [2026-01-02 06:28:40.117551] - User: oye - Path: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:28:40,155 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:28:40,158 django.request: Not Found: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:28:42,323 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:28:42,334 chats.middleware: [2026-01-02 06:28:42.334125] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:28:42,405 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:31:13,873 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:31:13,886 chats.middleware: [2026-01-02 06:31:13.886621] - User: oye - Path: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:31:13,922 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:31:13,925 django.request: Not Found: /api/conversations/777f7c5b-e703-4e4c-a804-607801a0413a/
+[INFO] 2026-01-02 06:31:16,888 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:31:16,895 chats.middleware: [2026-01-02 06:31:16.895830] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:31:16,994 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:31:31,764 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:31:31,772 chats.middleware: [2026-01-02 06:31:31.772511] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:31:32,125 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:31:48,182 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:31:48,196 chats.middleware: [2026-01-02 06:31:48.196219] - User: oye - Path: /api/conversations/251d532d-5332-4674-8702-bbb1f0abc967
+[INFO] 2026-01-02 06:31:48,217 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:31:48,232 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:31:48,243 chats.middleware: [2026-01-02 06:31:48.243462] - User: oye - Path: /api/conversations/251d532d-5332-4674-8702-bbb1f0abc967/
+[INFO] 2026-01-02 06:31:48,301 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:32:29,948 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:32:30,773 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:33:17,388 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:33:18,171 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:33:20,594 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:33:21,417 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:33:23,828 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:33:24,551 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:33:27,943 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:33:28,724 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:37:06,341 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:37:06,353 chats.middleware: [2026-01-02 06:37:06.353621] - User: oye - Path: /api/
+[INFO] 2026-01-02 06:37:06,417 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:37:10,392 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:37:10,398 chats.middleware: [2026-01-02 06:37:10.397944] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:37:10,609 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:37:43,477 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:37:43,484 chats.middleware: [2026-01-02 06:37:43.484652] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:37:43,507 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:37:43,508 django.request: Bad Request: /api/conversations/
+[INFO] 2026-01-02 06:42:13,585 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:14,642 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:16,236 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:17,043 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:18,621 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:19,380 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:23,731 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:24,480 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:27,816 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:28,716 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:30,324 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:31,284 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:34,849 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:35,646 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:42:46,047 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:42:46,933 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:43:01,981 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:43:02,778 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:43:06,399 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:43:07,535 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:43:11,277 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:43:12,088 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:43:32,358 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:43:33,242 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:43:38,913 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/signals.py changed, reloading.
+[INFO] 2026-01-02 06:43:39,658 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:44:36,052 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:44:36,062 chats.middleware: [2026-01-02 06:44:36.062536] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:44:36,291 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:44:58,484 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:44:58,488 chats.middleware: [2026-01-02 06:44:58.488822] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342
+[INFO] 2026-01-02 06:44:58,504 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:44:58,515 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:44:58,525 chats.middleware: [2026-01-02 06:44:58.525244] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:44:58,603 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:45:53,055 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:45:53,062 chats.middleware: [2026-01-02 06:45:53.062835] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:45:53,088 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:45:53,089 django.request: Bad Request: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:46:03,366 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:46:03,371 chats.middleware: [2026-01-02 06:46:03.371706] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:46:03,459 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:46:22,218 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:46:22,225 chats.middleware: [2026-01-02 06:46:22.225002] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:46:22,253 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:46:22,254 django.request: Bad Request: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:46:31,608 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:46:31,615 chats.middleware: [2026-01-02 06:46:31.615607] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:46:31,695 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:46:56,295 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:46:56,301 chats.middleware: [2026-01-02 06:46:56.301470] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:46:56,386 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:49:47,590 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:49:47,596 chats.middleware: [2026-01-02 06:49:47.596280] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:49:47,622 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 06:49:47,623 django.request: Bad Request: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:50:02,737 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:50:02,741 chats.middleware: [2026-01-02 06:50:02.741658] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:50:02,836 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:52:05,034 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:52:05,853 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:52:20,961 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:52:21,765 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:52:45,230 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:52:46,051 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:52:49,848 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:52:49,856 chats.middleware: [2026-01-02 06:52:49.856380] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:52:50,148 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:53:16,869 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 06:53:17,933 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:53:26,636 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:53:26,647 chats.middleware: [2026-01-02 06:53:26.646952] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:53:27,015 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:53:36,607 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:53:36,611 chats.middleware: [2026-01-02 06:53:36.611630] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:53:36,767 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:53:43,806 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:53:43,811 chats.middleware: [2026-01-02 06:53:43.811298] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:53:43,895 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:53:53,402 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:53:53,419 chats.middleware: [2026-01-02 06:53:53.419023] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:53:53,623 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:55:43,614 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:55:44,420 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:55:59,662 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:00,587 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:03,081 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:03,838 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:07,533 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:08,583 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:11,011 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:12,110 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:14,555 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:15,342 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:18,781 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:19,702 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:27,457 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:28,232 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:37,920 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:56:38,684 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:56:44,466 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:56:44,475 chats.middleware: [2026-01-02 06:56:44.474941] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[ERROR] 2026-01-02 06:56:44,611 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `participant_count` is not valid for model `Conversation` in `chats.serializers.ConversationSerializer`.
+[INFO] 2026-01-02 06:56:44,615 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:57:11,594 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:12,764 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:14,489 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:15,270 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:17,760 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:18,562 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:20,190 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:21,131 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:22,528 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:23,472 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:24,845 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:25,756 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:57:32,443 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:57:33,415 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:58:15,882 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:58:16,706 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:58:35,438 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:58:35,445 chats.middleware: [2026-01-02 06:58:35.445638] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[ERROR] 2026-01-02 06:58:35,609 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/fields.py", line 1869, in to_representation
+    method = getattr(self.parent, self.method_name)
+AttributeError: 'ConversationSerializer' object has no attribute 'get_participants_count'
+[INFO] 2026-01-02 06:58:35,612 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:59:02,137 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 06:59:03,011 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 06:59:04,005 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:59:04,019 chats.middleware: [2026-01-02 06:59:04.019425] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 06:59:04,254 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 06:59:41,007 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 06:59:41,012 chats.middleware: [2026-01-02 06:59:41.012040] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 06:59:41,083 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:01:00,094 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 07:01:00,939 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:01:04,380 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:01:04,389 chats.middleware: [2026-01-02 07:01:04.388947] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 07:01:04,626 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:01:22,533 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:01:22,540 chats.middleware: [2026-01-02 07:01:22.540562] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:01:22,682 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:18:08,412 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:18:08,422 chats.middleware: [2026-01-02 07:18:08.422214] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 07:18:08,485 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:19:24,692 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:19:24,699 chats.middleware: [2026-01-02 07:19:24.699175] - User: oye - Path: /api/
+[INFO] 2026-01-02 07:19:24,712 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:19:28,335 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:19:28,341 chats.middleware: [2026-01-02 07:19:28.340933] - User: oye - Path: /api/users/
+[INFO] 2026-01-02 07:19:28,388 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:23:52,539 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:23:52,545 chats.middleware: [2026-01-02 07:23:52.545842] - User: oye - Path: /api/
+[INFO] 2026-01-02 07:23:52,559 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:23:54,321 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:23:54,330 chats.middleware: [2026-01-02 07:23:54.330673] - User: oye - Path: /api/conversations/
+[INFO] 2026-01-02 07:23:54,396 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:24:35,126 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:24:35,136 chats.middleware: [2026-01-02 07:24:35.135986] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:24:35,283 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:28:47,642 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:28:48,556 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:28:54,238 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:28:55,125 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:29:04,028 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:29:04,777 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:29:46,038 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/views.py changed, reloading.
+[INFO] 2026-01-02 07:29:46,755 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:30:14,224 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:30:15,146 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:30:16,773 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:30:17,680 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:30:39,737 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:30:40,592 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:30:46,556 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:30:46,564 chats.middleware: [2026-01-02 07:30:46.564256] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:30:46,801 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:31:20,915 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:31:21,792 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:31:24,333 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:31:25,114 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:31:29,009 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:31:29,018 chats.middleware: [2026-01-02 07:31:29.018406] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:31:29,246 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:31:32,972 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:31:32,978 chats.middleware: [2026-01-02 07:31:32.978435] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:31:33,065 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 07:32:40,846 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:32:41,895 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:32:43,547 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:32:44,418 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:32:46,141 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 07:32:47,196 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 07:33:10,330 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 07:33:10,339 chats.middleware: [2026-01-02 07:33:10.339885] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 07:33:10,573 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:22:23,049 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/models.py changed, reloading.
+[INFO] 2026-01-02 10:22:24,944 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:02,418 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:03,452 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:12,418 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:13,236 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:40,591 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:41,344 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:48,064 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:49,108 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:50,517 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:51,421 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:54,885 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:55,805 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:25:57,240 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:25:58,121 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:26:00,577 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:26:01,363 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:26:06,899 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:26:07,966 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:26:09,323 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:26:10,202 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:26:23,969 django.utils.autoreload: /home/sanmi/Desktop/alx-backend-python/Django-signals_orm-0x04/chats/serializers.py changed, reloading.
+[INFO] 2026-01-02 10:26:24,888 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:36:37,567 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:36:41,668 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:36:41,679 chats.middleware: [2026-01-02 10:36:41.679031] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[ERROR] 2026-01-02 10:36:41,853 django.request: Internal Server Error: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: chats_message.parent_message_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/query.py", line 386, in __iter__
+    self._fetch_all()
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sanmi/Desktop/my-env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 360, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: chats_message.parent_message_id
+[INFO] 2026-01-02 10:36:41,857 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:37:03,886 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-01-02 10:37:09,427 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:37:09,435 chats.middleware: [2026-01-02 10:37:09.435670] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 10:37:09,672 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:41:47,826 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:41:47,845 chats.middleware: [2026-01-02 10:41:47.845201] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/
+[INFO] 2026-01-02 10:41:47,948 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:42:57,959 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:42:57,964 chats.middleware: [2026-01-02 10:42:57.964582] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 10:42:58,025 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:43:33,328 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:43:33,340 chats.middleware: [2026-01-02 10:43:33.340129] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/e85b5984-0bf3-431b-8091-30ee5e143342
+[INFO] 2026-01-02 10:43:33,363 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:43:33,378 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:43:33,387 chats.middleware: [2026-01-02 10:43:33.387452] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 10:43:33,453 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 10:43:33,455 django.request: Not Found: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/e85b5984-0bf3-431b-8091-30ee5e143342/
+[INFO] 2026-01-02 10:43:52,755 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:43:52,764 chats.middleware: [2026-01-02 10:43:52.764290] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/452064c6-9da9-4845-84fc-9f7b5d4ca056
+[INFO] 2026-01-02 10:43:52,781 chats.middleware: SimpleMiddleware: After the view
+[WARNING] 2026-01-02 10:43:52,782 django.request: Not Found: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/452064c6-9da9-4845-84fc-9f7b5d4ca056
+[INFO] 2026-01-02 10:44:08,214 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:44:08,227 chats.middleware: [2026-01-02 10:44:08.227509] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/452064c6-9da9-4845-84fc-9f7b5d4ca056
+[INFO] 2026-01-02 10:44:08,257 chats.middleware: SimpleMiddleware: After the view
+[INFO] 2026-01-02 10:44:08,275 chats.middleware: SimpleMiddleware: Before the view
+[INFO] 2026-01-02 10:44:08,294 chats.middleware: [2026-01-02 10:44:08.294643] - User: oye - Path: /api/conversations/e85b5984-0bf3-431b-8091-30ee5e143342/messages/452064c6-9da9-4845-84fc-9f7b5d4ca056/
+[INFO] 2026-01-02 10:44:08,432 chats.middleware: SimpleMiddleware: After the view

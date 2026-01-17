@@ -117,3 +117,4 @@
 [INFO] 2025-12-30 17:21:34,561 chats.middleware: [2025-12-30 17:21:34.561410] - User: samuel - Path: /api/conversations/
 [INFO] 2025-12-30 17:21:34,562 chats.middleware: SimpleMiddleware: After the view
 [WARNING] 2025-12-30 17:21:34,564 django.request: Forbidden: /api/conversations/
+[INFO] 2025-12-30 18:11:14,797 django.utils.autoreload: Watching for file changes with StatReloader
